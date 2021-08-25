@@ -1,6 +1,16 @@
 <h1 align="center">Django 👋</h1>
 
-> Django course
+## Create virtualenv
+
+```sh
+pipenv install django
+```
+
+## Activate virtualenv
+
+```sh
+pipenv shell
+```
 
 ## Create a Django project
 
@@ -19,3 +29,19 @@ python manage.py runserver
 ```sh
 python manage.py startapp package_name
 ```
+
+## Create database file
+
+```sh
+python manage.py migrate
+```
+
+## Create super-user
+
+```sh
+python manage.py createsuperuser
+```
+
+## Login super-user
+
+> go to 127.0.0.1:8000/admin and then sing in with credentials created in the previous step
