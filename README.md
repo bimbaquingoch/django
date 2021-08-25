@@ -45,3 +45,9 @@ python manage.py createsuperuser
 ## Login super-user
 
 > go to 127.0.0.1:8000/admin and then sing in with credentials created in the previous step
+
+## Show all installed packages
+
+```sh
+pip freeze
+```
