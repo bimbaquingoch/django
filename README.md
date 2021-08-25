@@ -51,3 +51,14 @@ python manage.py createsuperuser
 ```sh
 pip freeze
 ```
+
+## Create model package
+
+```sh
+python manage.py makemigrations
+<!-- example -->
+python manage.py makemigrations
+python manage.py migrate
+```
+
+> Now in 127.0.0.1:8000/admin you can create new Model
