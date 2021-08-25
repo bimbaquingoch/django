@@ -6,4 +6,10 @@ from django.shortcuts import render
 
 
 def say_hello(http_request):
-    return HttpResponse("hola mundo")
+    return render(
+        http_request,
+        "hello.html",
+        {
+            "name": "Giorno",
+        },
+    )
