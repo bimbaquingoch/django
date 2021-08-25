@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "resports",
     "sales",
     # 3rd party
-    "crispy_forms",
 ]
 
 MIDDLEWARE = [
